@@ -8,6 +8,98 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <h1>Admin</h1>
+    <aside class="aside-menu">
+      <div class="aside-menu__title-container">
+        <img src="images/view-dashboard.svg" alt="Dashboard icon" class="aside-menu__logo" />
+        <h1 class="aside-menu__title">Dashboard</h1>
+      </div>
+
+      <nav class="aside-menu__nav">
+        <ul>
+          <li class="aside-menu__links">
+            <img src="images/home.svg" alt="Home icon" class="aside-menu__link-icon" />
+            <span>Home</span>
+          </li>
+          <li class="aside-menu__links">
+            <img src="images/card-account-details.svg" alt="Profile icon" class="aside-menu__link-icon" />
+            <span>Profile</span>
+          </li>
+          <li class="aside-menu__links">
+            <img src="images/message-reply.svg" alt="Message icon" class="aside-menu__link-icon" />
+            <span>Messages</span>
+          </li>
+          <li class="aside-menu__links">
+            <img src="images/clock-time-three.svg" alt="Clock icon" class="aside-menu__link-icon" />
+            <span>History</span>
+          </li>
+          <li class="aside-menu__links">
+            <img src="images/note-multiple.svg" alt="Task icon" class="aside-menu__link-icon" />
+            <span>Tasks</span>
+          </li>
+          <li class="aside-menu__links">
+            <img src="images/account-group.svg" alt="Group icon" class="aside-menu__link-icon" />
+            <span>Communities</span>
+          </li>
+
+          <div class="separator" style="height: 20px; margin: 20px 0"></div>
+
+          <li class="aside-menu__links">
+            <img src="images/cog.svg" alt="Setting icon" class="aside-menu__link-icon" />
+            <span>Settings</span>
+          </li>
+          <li class="aside-menu__links">
+            <img src="images/help-box.svg" alt="Help icon" class="aside-menu__link-icon" />
+            <span>Support</span>
+          </li>
+          <li class="aside-menu__links">
+            <img src="images/shield-check.svg" alt="Shield icon" class="aside-menu__link-icon" />
+            <span>Privacy</span>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <header class="header">
+      <div class="header__top-bar">
+        <div>
+          <img src="images/magnify.svg" alt="" />
+          <input type="text" />
+        </div>
+
+        <div>
+          <img src="images/bell-ring.svg" alt="" />
+          <img src="images/profile-pic.png" alt="" class="profile-pic" />
+          <span>Carlos Acosta</span>
+        </div>
+      </div>
+
+      <div class="header__bottom-bar">
+        <div class="header__bottom-bar-profile">
+          <img src="images/profile-pic.png" alt="" />
+          <p>Hi there,</p>
+          <p>Carlos Acosta (@carlosaac23)</p>
+        </div>
+
+        <div class="header__bottom-bar-options">
+          <ul>
+            <li>
+              <a href="#">New</a>
+            </li>
+            <li>
+              <a href="#">Upload</a>
+            </li>
+            <li>
+              <a href="#">Share</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <h2 class="dashboard__subtitle">Your Projects</h2>
+      <h2 class="dashboard__subtitle">Announcements</h2>
+      <h2 class="dashboard__subtitle">Trending</h2>
+    </main>
   </body>
 </html>
