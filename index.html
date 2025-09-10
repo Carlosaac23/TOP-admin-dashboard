@@ -61,34 +61,36 @@
 
     <header class="header">
       <div class="header__top-bar">
-        <div>
-          <img src="images/magnify.svg" alt="" />
-          <input type="text" />
+        <div class="header__top-bar-left">
+          <img src="images/magnify.svg" alt="Search icon" class="header__search-icon" />
+          <input type="text" class="header__search-input" />
         </div>
 
-        <div>
-          <img src="images/bell-ring.svg" alt="" />
-          <img src="images/profile-pic.png" alt="" class="profile-pic" />
+        <div class="header__top-bar-right">
+          <img src="images/bell-ring.svg" alt="Notificiation icon" class="header__noti-icon" />
+          <img src="images/profile-pic.png" alt="Profile picture" class="header__profile-pic" />
           <span>Carlos Acosta</span>
         </div>
       </div>
 
       <div class="header__bottom-bar">
         <div class="header__bottom-bar-profile">
-          <img src="images/profile-pic.png" alt="" />
-          <p>Hi there,</p>
-          <p>Carlos Acosta (@carlosaac23)</p>
+          <img src="images/profile-pic.png" alt="Profile picture" />
+          <div class="header_botom-bar-text">
+            <p class="hello">Hi there,</p>
+            <p class="user">Carlos Acosta (@carlosaac)</p>
+          </div>
         </div>
 
         <div class="header__bottom-bar-options">
           <ul>
-            <li>
+            <li class="header__botom-options-link">
               <a href="#">New</a>
             </li>
-            <li>
+            <li class="header__botom-options-link">
               <a href="#">Upload</a>
             </li>
-            <li>
+            <li class="header__botom-options-link">
               <a href="#">Share</a>
             </li>
           </ul>
@@ -97,9 +99,191 @@
     </header>
 
     <main class="dashboard">
-      <h2 class="dashboard__subtitle">Your Projects</h2>
-      <h2 class="dashboard__subtitle">Announcements</h2>
-      <h2 class="dashboard__subtitle">Trending</h2>
+      <div class="dashboard__projects">
+        <h2 class="dashboard__projects-title">Your Projects</h2>
+
+        <div class="projects__container">
+          <div class="project__card">
+            <h3 class="project__card-title">Super Cool Project</h3>
+            <p class="project__card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas numquam molestiae, debitis ipsum sequi fugit aut reprehenderit cumque est
+              consequuntur.
+            </p>
+
+            <div class="project__card-options">
+              <a href="#">
+                <img src="images/star-plus.svg" alt="Favorite icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/eye-plus.svg" alt="Watch icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/share.svg" alt="Share icon" id="options-icon" />
+              </a>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <h3 class="project__card-title">Super Cool Project</h3>
+            <p class="project__card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas numquam molestiae, debitis ipsum sequi fugit aut reprehenderit cumque est
+              consequuntur.
+            </p>
+
+            <div class="project__card-options">
+              <a href="#">
+                <img src="images/star-plus.svg" alt="Favorite icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/eye-plus.svg" alt="Watch icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/share.svg" alt="Share icon" id="options-icon" />
+              </a>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <h3 class="project__card-title">Super Cool Project</h3>
+            <p class="project__card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas numquam molestiae, debitis ipsum sequi fugit aut reprehenderit cumque est
+              consequuntur.
+            </p>
+
+            <div class="project__card-options">
+              <a href="#">
+                <img src="images/star-plus.svg" alt="Favorite icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/eye-plus.svg" alt="Watch icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/share.svg" alt="Share icon" id="options-icon" />
+              </a>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <h3 class="project__card-title">Super Cool Project</h3>
+            <p class="project__card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas numquam molestiae, debitis ipsum sequi fugit aut reprehenderit cumque est
+              consequuntur.
+            </p>
+
+            <div class="project__card-options">
+              <a href="#">
+                <img src="images/star-plus.svg" alt="Favorite icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/eye-plus.svg" alt="Watch icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/share.svg" alt="Share icon" id="options-icon" />
+              </a>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <h3 class="project__card-title">Super Cool Project</h3>
+            <p class="project__card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas numquam molestiae, debitis ipsum sequi fugit aut reprehenderit cumque est
+              consequuntur.
+            </p>
+
+            <div class="project__card-options">
+              <a href="#">
+                <img src="images/star-plus.svg" alt="Favorite icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/eye-plus.svg" alt="Watch icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/share.svg" alt="Share icon" id="options-icon" />
+              </a>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <h3 class="project__card-title">Super Cool Project</h3>
+            <p class="project__card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas numquam molestiae, debitis ipsum sequi fugit aut reprehenderit cumque est
+              consequuntur.
+            </p>
+
+            <div class="project__card-options">
+              <a href="#">
+                <img src="images/star-plus.svg" alt="Favorite icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/eye-plus.svg" alt="Watch icon" id="options-icon" />
+              </a>
+              <a href="#">
+                <img src="images/share.svg" alt="Share icon" id="options-icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dashboard__announcements">
+        <h2 class="dashboard__announcements-title">Announcements</h2>
+        <div class="announcement__card">
+          <div>
+            <h3 class="announcement__card-title">Site Maintenance</h3>
+            <p class="announcement__card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, amet rem magnam quam perspiciatis delectus...
+            </p>
+          </div>
+
+          <div>
+            <h3 class="announcement__card-title">Site Maintenance</h3>
+            <p class="announcement__card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, amet rem magnam quam perspiciatis delectus...
+            </p>
+          </div>
+
+          <div>
+            <h3 class="announcement__card-title">Site Maintenance</h3>
+            <p class="announcement__card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, amet rem magnam quam perspiciatis delectus...
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="dashboard__trending">
+        <h2 class="dashboard__trending-title">Trending</h2>
+        <div class="trending__card">
+          <div class="trending__card-user-container">
+            <img src="images/gojo.png" alt="Profile picture" class="gojo" />
+            <div>
+              <p class="user">@gojo</p>
+              <p class="project">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trending__card-user-container">
+            <img src="images/saitama.png" alt="Profile picture" class="saitama" />
+            <div>
+              <p class="user">@saitama</p>
+              <p class="project">Theme Builder</p>
+            </div>
+          </div>
+          <div class="trending__card-user-container">
+            <img src="images/sukuna.png" alt="Profile picture" />
+            <div>
+              <p class="user">@sukuna</p>
+              <p class="project">Life Changing App</p>
+            </div>
+          </div>
+          <div class="trending__card-user-container">
+            <img src="images/gon.png" alt="Profile picture" class="gon" />
+            <div>
+              <p class="user">@gon</p>
+              <p class="project">No Traffic Maker</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
